@@ -3,7 +3,7 @@
 A Next.js application implementing a swimlane dashboard with drag-and-drop, state management, and search functionality.
 
 ## Setup
-1. Clone the repository: `git clone <repo-url>`
+1. Clone the repository: `git clone https://github.com/YasinduDulshanPeiris/swimlane-dashboard-.git`
 2. Install dependencies: `npm install`
 3. Run the development server: `npm run dev`
 4. Open `http://localhost:3000` in your browser.
@@ -18,6 +18,5 @@ A Next.js application implementing a swimlane dashboard with drag-and-drop, stat
 - Error handling for failed API fetches with fallback UI.
 
 ## Notes
-- Assets from `Assets.zip` are placed in `public/images`.
+- Assets are placed in `public/images`.
 - Tested for cross-browser compatibility (Chrome, Firefox, Safari, Edge).
-- Contact `submission@visionexdigital.com.au` for any asset or Figma clarification.
