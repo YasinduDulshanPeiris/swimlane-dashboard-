@@ -1,0 +1,200 @@
+[
+    {
+      "id": "todo",
+      "title": "To Do",
+      "color": "#e5e8eb",
+      "tasks": [
+        {
+          "id": "task-1",
+          "title": "User interview",
+          "category": "Research",
+          "categoryColor": "#aee753",
+          "priority": "Low",
+          "assignees": ["/images/img_user_profile.svg"],
+          "links": 2,
+          "comments": 2,
+          "dueDate": "Tomorrow"
+        },
+        {
+          "id": "task-2",
+          "title": "Design System",
+          "category": "Design",
+          "categoryColor": "#f80430",
+          "priority": "Medium",
+          "assignees": ["/images/img_user_profile.svg", "/images/img_user_profile.svg"],
+          "links": 3,
+          "comments": 8,
+          "reports": 2
+        },
+        {
+          "id": "task-3",
+          "title": "Speech",
+          "category": "Other",
+          "categoryColor": "#777e90",
+          "priority": "Low",
+          "assignees": ["/images/img_user_profile.svg", "/images/img_user_profile.svg", "/images/img_user_profile.svg"],
+          "links": 1,
+          "comments": 3,
+          "hasStream": true
+        },
+        {
+          "id": "task-4",
+          "title": "Wireframe",
+          "category": "Design",
+          "categoryColor": "#f80430",
+          "priority": "High",
+          "assignees": ["/images/img_user_profile.svg", "/images/img_user_profile.svg", "/images/img_user_profile.svg"],
+          "links": 3,
+          "comments": 8,
+          "hasStream": true,
+          "hasImage": true
+        }
+      ]
+    },
+    {
+      "id": "inprogress",
+      "title": "In Progress",
+      "color": "#ffa800",
+      "tasks": [
+        {
+          "id": "task-5",
+          "title": "UI Design",
+          "category": "Design",
+          "categoryColor": "#f80430",
+          "priority": "High",
+          "assignees": ["/images/img_user_profile.svg", "/images/img_user_profile.svg"],
+          "links": 2,
+          "comments": 2,
+          "dueDate": "Tomorrow"
+        },
+        {
+          "id": "task-6",
+          "title": "Check Clients Feedback",
+          "category": "Feedback",
+          "categoryColor": "#3772ff",
+          "priority": "Low",
+          "assignees": ["/images/img_user_profile.svg", "/images/img_user_profile.svg", "/images/img_user_profile.svg"],
+          "comments": 8,
+          "dueDate": "22 April, 2022",
+          "hasImage": true
+        },
+        {
+          "id": "task-7",
+          "title": "Copyright",
+          "category": "Presentation",
+          "categoryColor": "#ff5b00",
+          "priority": "Low",
+          "assignees": ["/images/img_user_profile.svg"],
+          "comments": 4,
+          "dueDate": "22 April, 2022"
+        },
+        {
+          "id": "task-8",
+          "title": "Filter sorting",
+          "category": "UX Research",
+          "categoryColor": "#ffa800",
+          "priority": "Low",
+          "assignees": ["/images/img_user_profile.svg", "/images/img_user_profile.svg"],
+          "links": 1,
+          "comments": 4,
+          "hasStream": true
+        }
+      ]
+    },
+    {
+      "id": "approved",
+      "title": "Approved",
+      "color": "#aee753",
+      "tasks": [
+        {
+          "id": "task-9",
+          "title": "Prototype",
+          "category": "Research",
+          "categoryColor": "#aee753",
+          "priority": "Low",
+          "assignees": ["/images/img_user_profile.svg", "/images/img_user_profile.svg", "/images/img_user_profile.svg"],
+          "links": 35,
+          "comments": 243
+        },
+        {
+          "id": "task-10",
+          "title": "Detail Page",
+          "category": "Design",
+          "categoryColor": "#f80430",
+          "priority": "Low",
+          "assignees": ["/images/img_user_profile.svg", "/images/img_user_profile.svg", "/images/img_user_profile.svg"],
+          "links": 6,
+          "comments": 28,
+          "hasImage": true
+        },
+        {
+          "id": "task-11",
+          "title": "Animation preloaders",
+          "category": "Interface",
+          "categoryColor": "#353945",
+          "priority": "High",
+          "assignees": ["/images/img_user_profile.svg"],
+          "links": 4,
+          "comments": 9
+        },
+        {
+          "id": "task-12",
+          "title": "Sorting category",
+          "category": "UX Research",
+          "categoryColor": "#ffa800",
+          "priority": "High",
+          "assignees": ["/images/img_user_profile.svg", "/images/img_user_profile.svg", "/images/img_user_profile.svg"],
+          "hasImage": true
+        }
+      ]
+    },
+    {
+      "id": "reject",
+      "title": "Reject",
+      "color": "#f80430",
+      "tasks": [
+        {
+          "id": "task-13",
+          "title": "Group Management",
+          "category": "Other",
+          "categoryColor": "#777e90",
+          "priority": "Low",
+          "assignees": ["/images/img_user_profile.svg"],
+          "comments": 329,
+          "hasGroupCall": true
+        },
+        {
+          "id": "task-14",
+          "title": "Design System",
+          "category": "Design",
+          "categoryColor": "#f80430",
+          "priority": "Low",
+          "assignees": ["/images/img_user_profile.svg"],
+          "links": 3,
+          "comments": 8,
+          "reports": 2
+        },
+        {
+          "id": "task-15",
+          "title": "Slider controls",
+          "category": "Interface",
+          "categoryColor": "#353945",
+          "priority": "Low",
+          "assignees": ["/images/img_user_profile.svg", "/images/img_user_profile.svg"],
+          "links": 8,
+          "comments": 31
+        },
+        {
+          "id": "task-16",
+          "title": "Slider controls",
+          "category": "Design",
+          "categoryColor": "#353945",
+          "priority": "Low",
+          "assignees": ["/images/img_user_profile.svg", "/images/img_user_profile.svg", "/images/img_user_profile.svg"],
+          "links": 3,
+          "comments": 8,
+          "hasImage": true
+        }
+      ]
+    }
+  ]
