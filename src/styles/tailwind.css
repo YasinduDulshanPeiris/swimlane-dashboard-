@@ -1,0 +1,119 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Global Colors */
+    --global-bg-1: #353945;
+    --global-bg-2: #3772ff;
+    --global-bg-3: #777e90;
+    --global-bg-4: #aee753;
+    --global-bg-5: #e5e8eb;
+    --global-bg-6: #f80430;
+    --global-bg-7: #ff5b00;
+    --global-bg-8: #ffa800;
+    --global-bg-9: #ffffff;
+    --global-bg-10: #f4f5f6;
+    
+    --global-text-1: #000000;
+    --global-text-2: #131416;
+    --global-text-3: #353945;
+    --global-text-4: #3772ff;
+    --global-text-5: #777e90;
+    --global-text-6: #b0b4c3;
+    --global-text-7: #f80430;
+    --global-text-8: #ffffff;
+    
+    /* Button Colors */
+    --button-bg-1: #f4f5f6;
+    
+    /* Primary Colors */
+    --primary-background: #3772ff;
+    --primary-foreground: #ffffff;
+    --primary-light: #5a8bff;
+    --primary-dark: #2c5bcc;
+    
+    /* Secondary Colors */
+    --secondary-background: #f4f5f6;
+    --secondary-foreground: #353945;
+    --secondary-light: #ffffff;
+    --secondary-dark: #777e90;
+    
+    /* Accent Colors */
+    --accent-color: #ff5b00;
+    --accent-foreground: #ffffff;
+    --accent-light: #ff7a33;
+    --accent-dark: #cc4900;
+    
+    /* Border Colors */
+    --border-primary: #e5e8eb;
+    --border-secondary: #f4f5f6;
+    --border-light: #ffffff;
+    --border-dark: #777e90;
+    
+    /* Text Colors */
+    --text-primary: #353945;
+    --text-secondary: #777e90;
+    --text-muted: #b0b4c3;
+    --text-accent: #3772ff;
+    
+    /* Background Colors */
+    --bg-main: #ffffff;
+    --bg-card: #f4f5f6;
+    --bg-overlay: #353945;
+  }
+}
+
+@layer utilities {
+  /* Global */
+  .bg-global-1 { background-color: var(--global-bg-1); }
+  .bg-global-2 { background-color: var(--global-bg-2); }
+  .bg-global-3 { background-color: var(--global-bg-3); }
+  .bg-global-4 { background-color: var(--global-bg-4); }
+  .bg-global-5 { background-color: var(--global-bg-5); }
+  .bg-global-6 { background-color: var(--global-bg-6); }
+  .bg-global-7 { background-color: var(--global-bg-7); }
+  .bg-global-8 { background-color: var(--global-bg-8); }
+  .bg-global-9 { background-color: var(--global-bg-9); }
+  .bg-global-10 { background-color: var(--global-bg-10); }
+  
+  .text-global-1 { color: var(--global-text-1); }
+  .text-global-2 { color: var(--global-text-2); }
+  .text-global-3 { color: var(--global-text-3); }
+  .text-global-4 { color: var(--global-text-4); }
+  .text-global-5 { color: var(--global-text-5); }
+  .text-global-6 { color: var(--global-text-6); }
+  .text-global-7 { color: var(--global-text-7); }
+  .text-global-8 { color: var(--global-text-8); }
+  
+  /* Button */
+  .bg-button-1 { background-color: var(--button-bg-1); }
+  
+  /* Primary */
+  .bg-primary { background-color: var(--primary-background); }
+  .text-primary-fg { color: var(--primary-foreground); }
+  
+  /* Secondary */
+  .bg-secondary { background-color: var(--secondary-background); }
+  .text-secondary-fg { color: var(--secondary-foreground); }
+  
+  /* Accent */
+  .bg-accent { background-color: var(--accent-color); }
+  .text-accent-fg { color: var(--accent-foreground); }
+  
+  /* Border */
+  .border-primary { border-color: var(--border-primary); }
+  .border-secondary { border-color: var(--border-secondary); }
+  
+  /* Text */
+  .text-primary-main { color: var(--text-primary); }
+  .text-secondary-main { color: var(--text-secondary); }
+  .text-muted-main { color: var(--text-muted); }
+  .text-accent-main { color: var(--text-accent); }
+  
+  /* Background */
+  .bg-main { background-color: var(--bg-main); }
+  .bg-card { background-color: var(--bg-card); }
+  .bg-overlay { background-color: var(--bg-overlay); }
+}
